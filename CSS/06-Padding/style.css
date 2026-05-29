@@ -1,0 +1,20 @@
+p {
+    background-color: darkviolet;
+}
+p {
+    padding: 30px;
+}
+p {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    padding-right: 0;
+}
+p {
+    padding: 20px 0;
+}
+p {
+    padding: 10px 20 px 0 30px;
+}
+
+
