@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.exemplo {
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+.caixa {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(255, 151, 250);
+}
+.display-none {
+    display: none;
+}
+.visibility-hidden {
+    
+}

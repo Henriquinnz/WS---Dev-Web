@@ -1,0 +1,17 @@
+a {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    background-color: lightblue;
+    text-decoration: solid;
+}
+* {
+    background-color: rgb(164, 170, 175);
+    font-size: 64px;
+}
+

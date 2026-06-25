@@ -1,0 +1,26 @@
+.container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    margin: 5px;
+}
+.item {
+    background-color: coral;
+    color: white;   
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.container-row-reverse {
+    flex-direction: row;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.container-column {
+    flex-direction: column;
+}
+.container-colum-reverse {
+    flex-direction: column-reverse;
+}

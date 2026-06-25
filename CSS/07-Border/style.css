@@ -7,7 +7,7 @@ p {
 }
 p {
     border-width: 10px 5px 2px 20px;
-    border-color: chocolate black white;
+    border-color: rgb(109, 15, 15);
     border-radius: 10px 20px 5px;    
 }
 p {

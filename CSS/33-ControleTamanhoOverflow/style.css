@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.texto {
+    line-height: 3;
+    word-spacing: 20px;
+}
+.caixa {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.tamanho-fixo {
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+.caixa-largura {
+    background-color: mediumblue;
+    max-width: 400px;
+    min-width: 300px;
+    width: 600px;
+}
+.caixa-altura {
+    background-color: lightcoral;
+    max-height: 50px;
+    min-height: 100px;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}
+.caixa-overflow-vertical {
+    background-color: lightgreen;
+    width: 300px;
+    height: 100px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.caixa-overflow {
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+}
+.caixa-overflow-total {
+    background-color: yellowgreen;
+    overflow: auto;
+    width: 200px;
+    height: 100px;
+}

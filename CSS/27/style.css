@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 2px solid rgb(138, 0, 0);
+    padding: 10px;
+    width: 700px;
+}
+.bloco-esquerdo {
+    float: left;
+    width: 200px;
+    height: 120px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.bloco-direito {
+
+    float: right;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(20, 0, 92);
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.texti-final {
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+}

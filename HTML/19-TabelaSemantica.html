@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Semantica</title>
+</head>
+<body>
+    <h1>Tabela semantica</h1>
+    <table border="1">
+        <caption>
+            Exemplo de tabela com semantica
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Titulo1</th>
+                <th scope="col">Titulo2</th>
+                <th scope="col">Titulo3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Dados1</td>
+                <td>Dados2</td>
+                <td>Dados3</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td scope="row" colspan="2">Dados1</td>
+                <td>Dados2</td>
+                <td>Dados3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3">Rodape da tabela</th>
+        </tfoot>
+    </table>
+</body>
+</html>
